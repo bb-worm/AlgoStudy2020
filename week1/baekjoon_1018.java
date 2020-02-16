@@ -1,3 +1,5 @@
+package week1;
+
 import java.io.*;
 import java.util.*;
 
@@ -20,23 +22,23 @@ public class baekjoon_1018 {
 		ans = Integer.MAX_VALUE;
 
 		char[] str;
-		for (int i=0; i<N; i++) {
+		for (int i = 0; i < N; i++) {
 			str = br.readLine().toCharArray();
-			for (int j=0; j<M; j++) {
+			for (int j = 0; j < M; j++) {
 				if (str[j] == 'W')
 					map[i][j] = 0; // white
 				else
 					map[i][j] = 1; // black
 			}
 		}
-//		printMap(0, 0);
+		// printMap(0, 0);
 		start();
 		System.out.println(ans);
 	}
 
 	public static void start() {
-		for (int i=0; i<=N-8; i++) {
-			for (int j=0; j<=M-8; j++) {
+		for (int i = 0; i <= N - 8; i++) {
+			for (int j = 0; j <= M - 8; j++) {
 				go(i, j);
 			}
 		}
@@ -49,14 +51,14 @@ public class baekjoon_1018 {
 		copy(a, b, tmp);
 		BFS(0, tmp);
 
-		//black
+		// black
 		copy(a, b, tmp);
 		BFS(1, tmp);
 	}
 
 	public static Queue<Integer> q = new LinkedList<Integer>();
-	public static int[] da = {0, 1};
-	public static int[] db = {1, 0};
+	public static int[] da = { 0, 1 };
+	public static int[] db = { 1, 0 };
 
 	public static void BFS(int start, int[][] tmp) {
 		int[][] visit = new int[8][8];
@@ -68,7 +70,8 @@ public class baekjoon_1018 {
 			tmp[0][0] = start;
 		}
 
-		q.add(0); q.add(0);
+		q.add(0);
+		q.add(0);
 		visit[0][0] = 1;
 
 		int a, b;
@@ -77,7 +80,7 @@ public class baekjoon_1018 {
 			b = q.poll();
 
 			int na, nb;
-			for (int i=0; i<2; i++) {
+			for (int i = 0; i < 2; i++) {
 				na = a + da[i];
 				nb = b + db[i];
 
@@ -87,7 +90,8 @@ public class baekjoon_1018 {
 				if (visit[na][nb] != 0)
 					continue;
 
-				q.add(na); q.add(nb);
+				q.add(na);
+				q.add(nb);
 				visit[na][nb] = 1;
 
 				if (tmp[a][b] == tmp[na][nb]) {
@@ -108,16 +112,16 @@ public class baekjoon_1018 {
 	}
 
 	public static void copy(int a, int b, int[][] tmp) {
-		for (int i=0; i<8; i++) {
-			for (int j=0; j<8; j++) {
-				tmp[i][j] = map[i+a][j+b];
+		for (int i = 0; i < 8; i++) {
+			for (int j = 0; j < 8; j++) {
+				tmp[i][j] = map[i + a][j + b];
 			}
 		}
 	}
 
 	public static void printMap(int a, int b) {
-		for (int i=a; i<a+8; i++) {
-			for (int j=b; j<b+8; j++) {
+		for (int i = a; i < a + 8; i++) {
+			for (int j = b; j < b + 8; j++) {
 				System.out.print(map[i][j] + " ");
 			}
 			System.out.println();

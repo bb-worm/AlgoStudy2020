@@ -1,3 +1,5 @@
+package week1;
+
 import java.io.*;
 import java.util.*;
 
@@ -39,6 +41,8 @@ public class baekjoon_1113 {
 				for (int j=1; j<M-1; j++) {
 					if (map[i][j] < k && waterIn[i][j] == 0) {
 						BFS(i, j, k);
+						System.out.println(k);
+						printArr(map);
 					}
 				}
 			}
