@@ -1,10 +1,10 @@
-# AlgoStudy2020-1
+# AlgoStudy2020
 
 Algorithm study in 2020
 
 ---
 
-### 1주차 (20.01.16~27)
+### 1주차 (20.01.16 ~ 27)
 
 1. 캐슬디펜스
    <https://www.acmicpc.net/problem/17135>
@@ -29,7 +29,7 @@ Algorithm study in 2020
 
 ---
 
-### 2주차 (20.01.27~02.01)
+### 2주차 (20.01.27 ~ 02.01)
 
 1. 달이 차오른다, 가자.
    <https://www.acmicpc.net/problem/1194>
@@ -44,7 +44,7 @@ Algorithm study in 2020
 
 ---
 
-### 3주차 (20.02.01~09)
+### 3주차 (20.02.01 ~ 09)
 
 1. 숨바꼭질
    <https://www.acmicpc.net/problem/1697>
@@ -63,7 +63,7 @@ Algorithm study in 2020
 
 ---
 
-### 4주차 (20.02.09~16)
+### 4주차 (20.02.09 ~ 16)
 
 1. 포도주 시식
    <https://www.acmicpc.net/problem/2156>
@@ -80,7 +80,7 @@ Algorithm study in 2020
 
 ---
 
-### 5-6주차 (20.02.15~29)
+### 5-6주차 (20.02.15 ~ 29)
 
 1. 탈옥
    <https://www.acmicpc.net/problem/9376>
@@ -106,3 +106,179 @@ Algorithm study in 2020
     <https://www.acmicpc.net/problem/16929>
 12. 버스 갈아타기
     <https://www.acmicpc.net/problem/2536>
+
+---
+
+### 7주차 (20.02.29 ~ 03.08)
+
+1. 가로 세로 퍼즐
+   <https://www.acmicpc.net/problem/2784>
+2. 집배원 한상덕
+   <https://www.acmicpc.net/problem/2842>
+3. 치즈
+   <https://www.acmicpc.net/problem/2636>
+4. 개미
+   <https://www.acmicpc.net/problem/3048>
+5. 빵집
+   <https://www.acmicpc.net/problem/3109>
+6. 양
+   <https://www.acmicpc.net/problem/3184>
+7. 카탄의 개척자
+   <https://www.acmicpc.net/problem/3678>
+
+---
+
+### 8주차 (20.03.07 ~ 15)
+
+1. 매직 스타
+   <https://www.acmicpc.net/problem/3967>
+2. 스타트링크
+   <https://www.acmicpc.net/problem/5014>
+3. 연결
+   <https://www.acmicpc.net/problem/5022>
+4. 과외맨
+   <https://www.acmicpc.net/problem/5213>
+5. 레이저 통신
+   <https://www.acmicpc.net/problem/6087>
+6. NxM 보드 완주하기
+   <https://www.acmicpc.net/problem/9944>
+7. 벽 부수기 이동하기 2
+   <https://www.acmicpc.net/problem/14442>
+
+---
+
+### 9주차 (20.03.14 ~ 22)
+
+1. 미친 로봇
+   <https://www.acmicpc.net/problem/1405>
+2. 리모컨
+   <https://www.acmicpc.net/problem/1107>
+3. 알고스팟
+   <https://www.acmicpc.net/problem/1261>
+4. 단어 수학
+   <https://www.acmicpc.net/problem/1339>
+5. 미로만들기
+   <https://www.acmicpc.net/problem/2665>
+6. 퍼즐
+   <https://www.acmicpc.net/problem/1525>
+7. 두 대표 자연수
+   <https://www.acmicpc.net/problem/2551>
+
+---
+
+### 10주차 (20.03.22 ~ 30)
+
+1. 엘리베이터
+   <https://www.acmicpc.net/problem/1089>
+2. 배
+   <https://www.acmicpc.net/problem/1092>
+3. 로봇 시뮬레이션
+   <https://www.acmicpc.net/problem/2174>
+4. 이분 그래프
+   <https://www.acmicpc.net/problem/1707>
+5. 주사위 쌓기
+   <https://www.acmicpc.net/problem/2116>
+6. 카드 섞기
+   <https://www.acmicpc.net/problem/1091>
+
+---
+
+### 11주차 (20.03.28 ~ 04.05)
+
+1. 텀 프로젝트
+   <https://www.acmicpc.net/problem/9466>
+2. 소수 경로
+   <https://www.acmicpc.net/problem/1963>
+3. 탑
+   <https://www.acmicpc.net/problem/2493>
+4. 스도쿠
+   <https://www.acmicpc.net/problem/2580>
+5. 트리의 지름
+   <https://www.acmicpc.net/problem/1967>
+6. 부분합
+   <https://www.acmicpc.net/problem/1806>
+
+---
+
+### 12주차 (20.04.04 ~ 04.12)
+
+1. 거짓말
+   <https://www.acmicpc.net/problem/1043>
+2. 숫자고르기
+   <https://www.acmicpc.net/problem/2668>
+3. 이모티콘
+   <https://www.acmicpc.net/problem/14226>
+4. 치즈
+   <https://www.acmicpc.net/problem/2638>
+5. 상범 빌딩
+   <https://www.acmicpc.net/problem/6593>
+6. 반도체 설계
+   <https://www.acmicpc.net/problem/2352>
+
+---
+
+### 13주차 (20.04.12 ~ 04.19)
+
+1. Count Circle Groups
+   <https://www.acmicpc.net/problem/10216>
+2. 두 용액
+   <https://www.acmicpc.net/problem/2470>
+3. 돌 게임 5
+   <https://www.acmicpc.net/problem/9659>
+4. 숨바꼭질 4
+   <https://www.acmicpc.net/problem/13913>
+5. 불!
+   <https://www.acmicpc.net/problem/4179>
+6. 로봇 청소기
+   <https://www.acmicpc.net/problem/4991>
+
+---
+
+### 14주차 (20.04.18 ~ 04.26)
+
+1. 비밀번호
+   <https://www.acmicpc.net/problem/13908>
+2. 카드 정렬하기
+   <https://www.acmicpc.net/problem/1715>
+3. 구슬 탈출
+   <https://www.acmicpc.net/problem/13459>
+4. 집 구하기
+   <https://www.acmicpc.net/problem/13911>
+5. Baaaaaaaaaduk2 (Easy)
+   <https://www.acmicpc.net/problem/16988>
+6. 가스관
+   <https://www.acmicpc.net/problem/2931>
+
+---
+
+### 15주차 (20.04.26 ~ 05.03)
+
+1. 사탕 게임
+   <https://www.acmicpc.net/problem/3085>
+2. 안전 영역
+   <https://www.acmicpc.net/problem/2468>
+3. 도시 분할 계획
+   <https://www.acmicpc.net/problem/1647>
+4. 여행 가자
+   <https://www.acmicpc.net/problem/1976>
+5. 타임머신
+   <https://www.acmicpc.net/problem/11657>
+6. 화물차
+   <https://www.acmicpc.net/problem/1400>
+
+---
+
+### 16주차 (20.05.02 ~ 05.10)
+
+1. 접미사 배열
+   <https://www.acmicpc.net/problem/11656>
+2. 로마 카톨릭 미사
+   <https://www.acmicpc.net/problem/9518>
+3. 금민수의 개수
+   <https://www.acmicpc.net/problem/1527>
+4. 봄버맨
+   <https://www.acmicpc.net/problem/16918>
+5. 연료 채우기
+   <https://www.acmicpc.net/problem/1826>
+6. 소수의 연속합
+   <https://www.acmicpc.net/problem/1644>

@@ -19,8 +19,7 @@ public class baekjoon_1600 {
 	public static int K;
 	public static int W, H;
 	public static int[][] map;
-	public static int[][] visit;
-	public static int[][] kNum;
+	public static int[][][] visit;
 	
 	public static int ans;
 
@@ -34,8 +33,7 @@ public class baekjoon_1600 {
 		W = Integer.parseInt(st.nextToken());
 		H = Integer.parseInt(st.nextToken());
 		map = new int[H][W];
-		visit = new int[H][W];
-		kNum = new int[H][W];
+		visit = new int[H][W][K+1];
 		
 		for (int i=0; i<H; i++) {
 			st = new StringTokenizer(br.readLine());
@@ -44,7 +42,10 @@ public class baekjoon_1600 {
 			}
 		}
 		ans = -1;
-		BFS();
+		if (W==1 && H==1)
+			ans = 0;
+		else
+			BFS();
 		System.out.println(ans);
 	}
 	
@@ -54,7 +55,7 @@ public class baekjoon_1600 {
 	public static void BFS() {
 		Queue<Monkey> q = new LinkedList<Monkey>();
 		
-		visit[0][0] = 1;
+		visit[0][0][K] = 1;
 		q.add(new Monkey(0, 0, K));
 		
 		Monkey m;
@@ -68,32 +69,21 @@ public class baekjoon_1600 {
 				nb = m.b + db[i];
 				nk = m.k;
 				
-				if (!check(na, nb, nk, i))
-					continue;
-				
 				if (i>=4) {
 					nk--;
 				}
 				
+				if (!check(na, nb, nk))
+					continue;
+				
 				if (na == H-1 && nb == W-1) {
-					ans = visit[m.a][m.b];
+					ans = visit[m.a][m.b][m.k];
 					q.clear();
 					return;
 				}
 				
-				// 더 적은 K를 사용해서 왔을 경우 
-				if (visit[na][nb] != 0) {
-					if (kNum[na][nb] < nk) {
-						visit[na][nb] = visit[m.a][m.b] + 1;
-						q.add(new Monkey(na, nb, nk));
-						kNum[na][nb] = nk;
-					}
-				}
-				else {
-					visit[na][nb] = visit[m.a][m.b] + 1;
-					kNum[na][nb] = nk;
-					q.add(new Monkey(na, nb, nk));
-				}
+				q.add(new Monkey(na, nb, nk));
+				visit[na][nb][nk] = visit[m.a][m.b][m.k] + 1;
 //				System.out.println(nk);
 //				printVisit();
 //				printK();
@@ -101,12 +91,14 @@ public class baekjoon_1600 {
 		}
 	}
 	
-	public static boolean check(int a, int b, int k, int idx) {
+	public static boolean check(int a, int b, int k) {
 		if (a<0||a>=H||b<0||b>=W)
 			return false;
 		if (map[a][b] == 1)
 			return false;
-		if (idx>=4 && k<=0)
+		if (k<0)
+			return false;
+		if (visit[a][b][k] != 0)
 			return false;
 		return true;
 	}
@@ -115,13 +107,6 @@ public class baekjoon_1600 {
 		for (int i=0; i<H; i++) {
 			for (int j=0; j<W; j++) {
 				System.out.print(visit[i][j]+ " ");
-			}System.out.println();
-		}System.out.println();
-	}
-	public static void printK() {
-		for (int i=0; i<H; i++) {
-			for (int j=0; j<W; j++) {
-				System.out.print(kNum[i][j]+ " ");
 			}System.out.println();
 		}System.out.println();
 	}

@@ -1,9 +1,9 @@
-package week5_6;
+package week13;
 
 import java.io.*;
 import java.util.*;
 
-public class baekjoon_5427 {
+public class Baekjoon_4179 {
 	
 	static class Point {
 		int a, b;
@@ -21,43 +21,38 @@ public class baekjoon_5427 {
 	static int[][] visit;
 	
 	static Point start;
-	static ArrayList<Point> fire;
+	static ArrayList<Point> fire = new ArrayList<>();
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 		
-		int T = Integer.parseInt(br.readLine());
-		for (int t=0; t<T; t++) {
-			
-			st = new StringTokenizer(br.readLine());
-			C = Integer.parseInt(st.nextToken());
-			R = Integer.parseInt(st.nextToken());
-			map = new char[R][C];
-			visit = new int[R][C];
-			fire = new ArrayList<>();
-			
-			for (int i=0; i<R; i++)
-				Arrays.fill(visit[i], Integer.MAX_VALUE);
-			
-			for (int i=0; i<R; i++) {
-				map[i] = br.readLine().toCharArray();
-				for (int j=0; j<C; j++) {
-					if (map[i][j] == '@') {
-						start = new Point(i, j, 1);
-					} else if (map[i][j] == '*') {
-						fire.add(new Point(i, j, 0));
-					}
+		st = new StringTokenizer(br.readLine());
+		R = Integer.parseInt(st.nextToken());
+		C = Integer.parseInt(st.nextToken());
+		map = new char[R][C];
+		visit = new int[R][C];
+		for (int i=0; i<R; i++)
+			Arrays.fill(visit[i], Integer.MAX_VALUE);
+		
+		for (int i=0; i<R; i++) {
+			map[i] = br.readLine().toCharArray();
+			for (int j=0; j<C; j++) {
+				if (map[i][j] == 'J') {
+					start = new Point(i, j, 1);
+				} else if (map[i][j] == 'F') {
+					fire.add(new Point(i, j, 0));
 				}
 			}
-			
-			int ans = BFS();
-			
-			if (ans == -1)
-				System.out.println("IMPOSSIBLE");
-			else
-				System.out.println(ans);
 		}
+		
+		int ans = BFS();
+		
+		if (ans == -1)
+			System.out.println("IMPOSSIBLE");
+		else
+			System.out.println(ans);
+//		printVisit();
 	}
 	
 	static int[] da = {-1, 1, 0, 0};
