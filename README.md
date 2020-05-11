@@ -109,7 +109,7 @@ Algorithm study in 2020
 
 ---
 
-### 7주차 (20.02.29 ~ 03.08)
+### 7주차 (20.02.29 ~ 03.07)
 
 1. 가로 세로 퍼즐
    <https://www.acmicpc.net/problem/2784>
@@ -128,7 +128,7 @@ Algorithm study in 2020
 
 ---
 
-### 8주차 (20.03.07 ~ 15)
+### 8주차 (20.03.07 ~ 14)
 
 1. 매직 스타
    <https://www.acmicpc.net/problem/3967>
@@ -147,7 +147,7 @@ Algorithm study in 2020
 
 ---
 
-### 9주차 (20.03.14 ~ 22)
+### 9주차 (20.03.14 ~ 21)
 
 1. 미친 로봇
    <https://www.acmicpc.net/problem/1405>
@@ -166,7 +166,7 @@ Algorithm study in 2020
 
 ---
 
-### 10주차 (20.03.22 ~ 30)
+### 10주차 (20.03.22 ~ 29)
 
 1. 엘리베이터
    <https://www.acmicpc.net/problem/1089>
@@ -183,7 +183,7 @@ Algorithm study in 2020
 
 ---
 
-### 11주차 (20.03.28 ~ 04.05)
+### 11주차 (20.03.28 ~ 04.04)
 
 1. 텀 프로젝트
    <https://www.acmicpc.net/problem/9466>
@@ -200,7 +200,7 @@ Algorithm study in 2020
 
 ---
 
-### 12주차 (20.04.04 ~ 04.12)
+### 12주차 (20.04.04 ~ 04.11)
 
 1. 거짓말
    <https://www.acmicpc.net/problem/1043>
@@ -217,7 +217,7 @@ Algorithm study in 2020
 
 ---
 
-### 13주차 (20.04.12 ~ 04.19)
+### 13주차 (20.04.11 ~ 04.18)
 
 1. Count Circle Groups
    <https://www.acmicpc.net/problem/10216>
@@ -234,7 +234,7 @@ Algorithm study in 2020
 
 ---
 
-### 14주차 (20.04.18 ~ 04.26)
+### 14주차 (20.04.18 ~ 04.25)
 
 1. 비밀번호
    <https://www.acmicpc.net/problem/13908>
@@ -251,7 +251,7 @@ Algorithm study in 2020
 
 ---
 
-### 15주차 (20.04.26 ~ 05.03)
+### 15주차 (20.04.26 ~ 05.02)
 
 1. 사탕 게임
    <https://www.acmicpc.net/problem/3085>
@@ -268,7 +268,7 @@ Algorithm study in 2020
 
 ---
 
-### 16주차 (20.05.02 ~ 05.10)
+### 16주차 (20.05.02 ~ 05.09)
 
 1. 접미사 배열
    <https://www.acmicpc.net/problem/11656>
@@ -282,3 +282,18 @@ Algorithm study in 2020
    <https://www.acmicpc.net/problem/1826>
 6. 소수의 연속합
    <https://www.acmicpc.net/problem/1644>
+
+---
+
+### 17주차 (20.05.09 ~ 5.16)
+
+1. 파이프 옮기기 1
+   <https://www.acmicpc.net/problem/17070>
+2. ⚾
+   <https://www.acmicpc.net/problem/17281>
+3. 배열 돌리기 4
+   <https://www.acmicpc.net/problem/17406>
+4. 괄호 추가하기
+   <https://www.acmicpc.net/problem/16637>
+5. Brainf\*\*k 인터프리터
+   <https://www.acmicpc.net/problem/3954>
