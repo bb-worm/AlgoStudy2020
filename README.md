@@ -285,7 +285,7 @@ Algorithm study in 2020
 
 ---
 
-### 17주차 (20.05.09 ~ 5.16)
+### 17주차 (20.05.09 ~ 05.16)
 
 1. 파이프 옮기기 1
    <https://www.acmicpc.net/problem/17070>
@@ -297,3 +297,16 @@ Algorithm study in 2020
    <https://www.acmicpc.net/problem/16637>
 5. Brainf\*\*k 인터프리터
    <https://www.acmicpc.net/problem/3954>
+
+### 18주차 (20.05.16 ~ 23)
+
+1. 연산자 끼워넣기
+   <https://www.acmicpc.net/problem/14888>
+2. 뱀
+   <https://www.acmicpc.net/problem/3190>
+3. 테트로미노
+   <https://www.acmicpc.net/problem/14500>
+4. 원판 돌리기
+   <https://www.acmicpc.net/problem/17822>
+5. 다리 만들기 2
+   <https://www.acmicpc.net/problem/17472>
