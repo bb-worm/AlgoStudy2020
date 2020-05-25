@@ -298,6 +298,8 @@ Algorithm study in 2020
 5. Brainf\*\*k 인터프리터
    <https://www.acmicpc.net/problem/3954>
 
+---
+
 ### 18주차 (20.05.16 ~ 23)
 
 1. 연산자 끼워넣기
@@ -310,3 +312,20 @@ Algorithm study in 2020
    <https://www.acmicpc.net/problem/17822>
 5. 다리 만들기 2
    <https://www.acmicpc.net/problem/17472>
+
+---
+
+### 19주차 (20.05.23 ~ 30)
+
+1. 키로거
+   <https://www.acmicpc.net/problem/5397>
+2. 회전 초밥
+   <https://www.acmicpc.net/problem/2531>
+3. N번째 큰 수
+   <https://www.acmicpc.net/problem/2075>
+4. 친구 네트워크
+   <https://www.acmicpc.net/problem/4195>
+5. 환승
+   <https://www.acmicpc.net/problem/5214>
+
+---
