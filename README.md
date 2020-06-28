@@ -329,3 +329,78 @@ Algorithm study in 2020
    <https://www.acmicpc.net/problem/5214>
 
 ---
+
+### 20주차 (20.05.31 ~ 06.06)
+
+1. 단어 나누기
+   <https://www.acmicpc.net/problem/1251>
+2. 보드 점프
+   <https://www.acmicpc.net/problem/3372>
+3. 잠수함식별
+   <https://www.acmicpc.net/problem/2671>
+4. 신비로운 수
+   <https://www.acmicpc.net/problem/17433>
+5. 스러피
+   <https://www.acmicpc.net/problem/14906>
+
+---
+
+### 21주차 (20.06.06 ~ 13)
+
+1. 소가 길을 건너간 이유 3
+   <https://www.acmicpc.net/problem/14469>
+2. 소가 길을 건너간 이유 6
+   <https://www.acmicpc.net/problem/14466>
+3. 미네랄 2
+   <https://www.acmicpc.net/problem/18500>
+4. 새로운 게임
+   <https://www.acmicpc.net/problem/17780>
+5. 일요일 아침의 데이터
+   <https://www.acmicpc.net/problem/1445>
+
+---
+
+### 22주차 (20.06.13 ~ 20)
+
+1. 요세푸스 문제
+   <https://www.acmicpc.net/problem/1158>
+2. 가로수
+   <https://www.acmicpc.net/problem/2485>
+3. 에디터
+   <https://www.acmicpc.net/problem/1406>
+4. 로또
+   <https://www.acmicpc.net/problem/6603>
+5. 부분수열의 합
+   <https://www.acmicpc.net/problem/1182>
+
+---
+
+### 23주차 (20.06.21 ~ 27)
+
+1. 아!
+   <https://www.acmicpc.net/problem/4999>
+2. 팰린드롬인지 확인하기
+   <https://www.acmicpc.net/problem/10988>
+3. 내 학점을 구해줘
+   <https://www.acmicpc.net/problem/10984>
+4. 배수들의 합
+   <https://www.acmicpc.net/problem/17173>
+5. 피보나치 수
+   <https://www.acmicpc.net/problem/2747>
+
+---
+
+### 24주차 (20.06.28 ~ 07.04)
+
+1. 하얀 칸
+   <https://www.acmicpc.net/problem/1100>
+2. 농구 경기
+   <https://www.acmicpc.net/problem/1159>
+3. 이상한 곱셈
+   <https://www.acmicpc.net/problem/1225>
+4. 주사위
+   <https://www.acmicpc.net/problem/1233>
+5. 쉽게 푸는 문제
+   <https://www.acmicpc.net/problem/1292>
+
+---
